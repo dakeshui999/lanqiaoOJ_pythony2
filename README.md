@@ -13,3 +13,10 @@ for i in range(1,1000000008):
   if (i * 2021)%1000000007==999999999:
     print(i)
     break
+#平方和
+sum = 0
+for i in range(1,2020):
+  s = str(i)
+  if '2' in s or '0' in s or '1' in s or '9' in s:
+    sum += i*i
+    print（sum）
